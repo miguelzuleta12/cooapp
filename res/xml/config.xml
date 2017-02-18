@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="129" defaultlocale="es-CO" id="com.coomeva" version="1.1.15" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-intent href="market:*" />
+    <icon density="ldpi" src="coomeva/icons/android/icon-36-ldpi.png" />
+    <icon density="mdpi" src="coomeva/icons/android/icon-48-mdpi.png" />
+    <icon density="hdpi" src="coomeva/icons/android/icon-72-hdpi.png" />
+    <icon density="xhdpi" src="coomeva/icons/android/icon-96-xhdpi.png" />
+    <splash density="land-hdpi" src="coomeva/screens/android/screen-hdpi-landscape.png" />
+    <splash density="land-ldpi" src="coomeva/screens/android/screen-ldpi-landscape.png" />
+    <splash density="land-mdpi" src="coomeva/screens/android/screen-mdpi-landscape.png" />
+    <splash density="land-xhdpi" src="coomeva/screens/android/screen-xhdpi-landscape.png" />
+    <splash density="port-hdpi" src="coomeva/screens/android/screen-hdpi-portrait.png" />
+    <splash density="port-ldpi" src="coomeva/screens/android/screen-ldpi-portrait.png" />
+    <splash density="port-mdpi" src="coomeva/screens/android/screen-mdpi-portrait.png" />
+    <splash density="port-xhdpi" src="coomeva/screens/android/screen-xhdpi-portrait.png" />
+    <name>coomeva</name>
+    <description>
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">coomeva.com</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <vs:features />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="windows-target-version" value="8.1" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+</widget>
